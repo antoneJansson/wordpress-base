@@ -3,7 +3,7 @@ version: '3.8'
 services:
   # database
   db:
-    image: mysql:8
+    image: mysql:latest
     volumes:
       - db_data:/var/lib/mysql
     restart: always
